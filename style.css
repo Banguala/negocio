@@ -1,0 +1,60 @@
+
+
+
+#logo1 {
+    width: 20%;
+    height: 5%;
+    padding: 0%;
+   float:right ;
+}
+.margen{
+    width: 10%;
+    height: 100%;
+    display: flex;
+
+}
+
+.titulo {
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+    color: black;
+}
+.title__header {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-size: 5rem;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .card {
+    display: inline-block;
+    width: 30%;
+    box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
+    text-align: center;
+    border: 1px solid #eceff1;
+    border-radius: 3px;
+    margin: 0 20px;
+  }
+  
+  .img__card {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .title__card {
+    margin: 15px 0;
+  }
+  
+  .text__card {
+    padding: 20px 40px;
+    text-align: justify;
+  }

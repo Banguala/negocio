@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Despacho Contable D´Taset</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <div id="logo">
-          <img src="img/01_logo.jpg" alt="Despacho D'Taset"></a>
+        <div class="logo">
+          <img src="img/01_logo.jpg" alt="Despacho D'Taset" id="logo1"></a>
         </div>
 
         <nav class="menu_inicial">
@@ -23,28 +24,55 @@
             </ul>
         </nav>
     </header>
-    <section id="Quienes_Somos">
+
+    <section class="margen">
         <img src="img/Qsomos.jpg" alt="Quienes Somos Nosotros">
-        <h1>Quienes Somos</h1>
-        <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum reiciendis dicta omnis est, quos cupiditate animi nesciunt dolore deleniti, culpa perspiciatis. In, impedit! Consequuntur laboriosam, ea illo possimus praesentium vel sed mollitia libero eius nostrum omnis excepturi recusandae fuga quam eum ipsa facilis. Culpa voluptatum, impedit ipsam dolorem laboriosam optio!   
+    </section>
+    <section class="about">
+        <h2 class="title">Nuestros productos</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eaque
+          non ipsum aliquam mollitia eos dolorum officiis assumenda veniam quos!
+          Iure, ducimus. Quidem eveniet, aliquid ab ducimus itaque tempora
+          aperiam.
         </p>
-    </section>
-    <section id="Productos">
-        <h1>Nuestros Productos</h1>
-        <section id="Contable">
-            <h2>Servicios Contables</h2>
-
-        </section>
-        <section id="Fiscal">
-            <h2>Servicios Fiscales</h2>
-
-        </section>
-        <section id="Audiroria">
-            <h2>Servicios de Auditoría</h2>
-        </section>
-
-    </section>
-    <footer>
+      </section>
+    <section class="container">
+        <article class="card">
+          <header>
+            <img class="img__card" src="https://picsum.photos/200/300" alt="" />
+            <h2 class="title__card">Contabilidad</h2>
+          </header>
+          <p class="text__card">
+            Los servicios contables son más que un registro de pólizas, cálculo de impuestos y emisión de reportes. Los servicios contables deben ser parte de un apoyo integral y preventivo para tu empresa, así que nuestro equipo de asesores y consultores estarán aquí para ayudarte cuando tú y tu equipo nos necesiten.
+          </p>
+        </article>
+        <article class="card">
+          <header>
+            <img class="img__card" src="https://picsum.photos/200/300" alt="" />
+            <h2 class="title__card">Fiscales</h2>
+          </header>
+          <p class="text__card">
+            Optar por la contratación de servicios fiscales por parte de una consultoría podrá ser la mejor opción para evitar conflictos legales en un futuro. 
+            También, está la opción de en este rubro contratar a un asesor fiscal autorizado por el SAT, para llevar todos tus temas fiscales regulados.<br><br/>
+            Las consultorías, además de ayudar en que un negocio se encuentre en forma en todo el ámbito legal, puede apoyarte a la toma decisiones o aconsejarte sobre posibles inversiones. Con esto, puedes evitar dejar a la suerte el futuro de tu empresa.
+            
+          </p>
+        </article>
+        <article class="card">
+          <header>
+            <img class="img__card" src="https://picsum.photos/200/300" alt="" />
+            <h2 class="title__card">Auditoría</h2>
+          </header>
+          <p class="text__card">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nisi
+            enim est culpa magnam porro consequatur voluptates commodi iste,
+            delectus sunt iure qui recusandae alias perspiciatis quia, dolores nam
+            saepe.
+          </p>
+        </article>
+      </section>
+      <footer>
         <p>Copyright© 2022, Carlos Ortega</p>
     </footer>
 </body>
