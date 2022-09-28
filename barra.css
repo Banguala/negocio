@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 90px 20px 0; /* crea el espacio entre el encabezado fijo y el cuerpo de la pag */
+}
+
+.header{
+    background: rgb(7, 99, 140);
+    height: 80px; /* Alto */
+    position: fixed; /* mantener fijo el encabezado cuando haga el scroll */
+    width: 100%; /* ancho */
+    top: 0; 
+    left: 0;
+}
+.nav{
+    display: flex; /* pone la barra de navegación de forma horizontal */
+    justify-content: space-between; /* justifica a un elemento a la derecha (logo) y el otro a la izquierda (barra de navegacion) */
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-menu-link{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+        width: 250px;
+        height: 80px;
+        line-height: 80px;
+      }
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    color: white;
+    line-height: 80px; /* esto es para que quede centrado y el valor debe ser igual al de alto del header */ 
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase; /* para que todo quede en mayúscula */
+    width: max-content; /* cuando la linea tiene más de una palabra no cortar el contenido en una segunda línea */ 
+}
+.nav-menu-link{
+    padding: 8px 12px; /* padding arriba y abajo es el primero luego a los lados */
+    border-radius: 5px; /*crea el efecto de borde redondeado*/
+} 
+
+.nav-menu-link:hover{
+    background-color: rgb(0, 65, 115);
+    transition: 0.5s; 
+}
+
+
+
+
+
+.titulo {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+     color: black;
+ }
+ .title__header {
+     position: absolute;
+     top: 30%;
+     left: 20%;
+     color: white;
+     font-size: 5rem;
+   }
+   
+   .container {
+    display: flex;
+    justify-content: center;
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 50px;
+   }
+   
+   .card {
+     display: inline-block;
+     width: 30%;
+     box-shadow: 10px 8px 8px -4px rgba(0, 0, 0, 0.42);
+     text-align: center;
+     border: 1px solid #eceff1;
+     border-radius: 3px;
+     margin: 0 20px;
+   }
+   
+   .img__card {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+   }
+   
+   .title__card {
+     margin: 15px 0;
+   }
+   
+   .text__card {
+     padding: 20px 40px;
+     text-align: justify;
+   }
+
+   .pie-pag{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 60px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+   }
